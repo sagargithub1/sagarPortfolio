@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom"
+import { HashRouter as Router } from "react-router-dom";
 import { Container } from "./styles"
 import { Fade } from "react-awesome-reveal";
 import Illustration from "../../assets/illustration.svg"
