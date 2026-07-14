@@ -29,9 +29,9 @@ export function Hero() {
           <p className="small-resume">React JS | JavaScript/TypeScript | Node.js | PHP/Laravel | AWS | MySQL | MongoDB | Wordpress | Open Cart | HTML | CSS | </p>
         </Fade>
         <Fade  delay={0.8 * 1000}>
-          <BrowserRouter>
+          <Router>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
-          </BrowserRouter>
+          </Router>
         </Fade>
         <Fade  delay={1 * 1000}>
       <div className="social-media"><a
